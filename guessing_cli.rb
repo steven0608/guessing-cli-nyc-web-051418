@@ -7,6 +7,10 @@ if guess_name == computer_guess
 else
   puts "The computer guessed #{computer_guess}."
   puts "enter exit to leave the game"
+end
   user_respond=gets.chomp
   if user_respond == "exit"
-    
+    break
+  else
+    puts "Please enter again"
+  end
