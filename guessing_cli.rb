@@ -9,7 +9,7 @@ if guess_name == computer_guess
   puts "You guessed the correct number!"
 elsif guess_name == "exit"
   puts "Bye!"
-  break  
+  break
 else
   puts "The computer guessed #{computer_guess}."
 end
