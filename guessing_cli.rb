@@ -2,7 +2,7 @@
 def run_guessing_game
 loop do
 
-puts "Please enter your guess (number 0 to 100):"
+puts "Guess a number between 1 and 6."
 guess_name = gets.chomp
 computer_guess= rand(0..100)
 if guess_name == computer_guess
