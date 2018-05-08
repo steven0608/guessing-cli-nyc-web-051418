@@ -1,4 +1,5 @@
 # Code your solution here!
+def run_guessing_game
 puts "Please enter your guess (number 0 to 100):"
 guess_name = gets.chomp
 computer_guess= rand(0..100)
@@ -14,3 +15,4 @@ end
   else
     puts "Please enter again"
   end
+end
