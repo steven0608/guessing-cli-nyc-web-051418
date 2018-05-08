@@ -4,7 +4,7 @@ loop do
 
 puts "Guess a number between 1 and 6."
 guess_name = gets.chomp
-computer_guess= rand(1..6)
+computer_guess= rand(1..6).to_s
 if guess_name == computer_guess
   puts "You guessed the correct number!"
 elsif guess_name == "exit"
