@@ -8,7 +8,7 @@ computer_guess= rand(0..100)
 if guess_name == computer_guess
   puts "You guessed the correct number!"
 elsif guess_name == "exit"
-  puts "Bye!"
+  puts "Goodbye!"
   break
 else
   puts "The computer guessed #{computer_guess}."
